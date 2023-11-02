@@ -1,0 +1,28 @@
+{
+    "name": "dcorroyer/my-open-api-bundle",
+    "description": "An api doc helper bundle for symfony app",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "My\\OpenApiBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "My\\OpenApiBundle\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=8.2",
+        "nelmio/api-doc-bundle": "^4.12",
+        "symfony/http-foundation": "^6.3",
+        "symfony/serializer": "6.3.*"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
