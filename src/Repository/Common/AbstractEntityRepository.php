@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace My\OpenApiBundle\Repository\Common;
+namespace My\RestBundle\Repository\Common;
 
-use My\OpenApiBundle\Contract\ORMFilterInterface;
-use My\OpenApiBundle\Dto\PaginationQueryParams;
+use My\RestBundle\Contract\ORMFilterInterface;
+use My\RestBundle\Dto\PaginationQueryParams;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository as BaseRepository;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepositoryInterface;
 use Doctrine\Common\Collections\Criteria;

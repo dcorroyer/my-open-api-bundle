@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace My\OpenApiBundle\Dto;
+namespace My\RestBundle\Dto;
 
 use Symfony\Component\Validator\Constraints as Assert;
 

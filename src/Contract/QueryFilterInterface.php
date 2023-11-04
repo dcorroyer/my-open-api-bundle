@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace My\OpenApiBundle\Contract;
+namespace My\RestBundle\Contract;
 
 /**
  * Interface FilterQueryInterface.

@@ -1,17 +1,17 @@
 {
-    "name": "dcorroyer/my-open-api-bundle",
-    "description": "An api doc helper bundle for symfony app",
+    "name": "dcorroyer/my-rest-bundle",
+    "description": "A rest api helper bundle for my symfony apps",
     "type": "symfony-bundle",
     "license": "MIT",
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "My\\OpenApiBundle\\": "src/"
+            "My\\RestBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "My\\OpenApiBundle\\Tests\\": "tests/"
+            "My\\RestBundle\\Tests\\": "tests/"
         }
     },
     "require": {

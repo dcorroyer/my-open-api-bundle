@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace My\OpenApiBundle\Serialization\Model;
+namespace My\RestBundle\Serialization\Model;
 
 use Symfony\Component\Serializer\Annotation as Serializer;
-use My\OpenApiBundle\Serialization\ApiSerializationGroups;
+use My\RestBundle\Serialization\ApiSerializationGroups;
 
 final class PaginatedListMetadata
 {

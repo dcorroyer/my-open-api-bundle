@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace My\OpenApiBundle\Helper;
+namespace My\RestBundle\Helper;
 
-use My\OpenApiBundle\Contract\PayloadInterface;
+use My\RestBundle\Contract\PayloadInterface;
 use Symfony\Component\Serializer\Normalizer\AbstractNormalizer;
 use Symfony\Component\Serializer\Normalizer\DenormalizerInterface;
 use Symfony\Component\Serializer\Normalizer\NormalizerInterface;

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace My\OpenApiBundle\Controller;
+namespace My\RestBundle\Controller;
 
 use Knp\Bundle\PaginatorBundle\Pagination\SlidingPagination;
-use My\OpenApiBundle\Serialization\Model\ApiResponse;
-use My\OpenApiBundle\Serialization\Model\PaginatedListMetadata;
-use My\OpenApiBundle\Utils\ObjectContextMerger;
+use My\RestBundle\Serialization\Model\ApiResponse;
+use My\RestBundle\Serialization\Model\PaginatedListMetadata;
+use My\RestBundle\Utils\ObjectContextMerger;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
