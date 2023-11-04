@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace My\RestBundle\Utils;
+namespace My\OpenApiBundle\Utils;
 
 use Symfony\Component\Serializer\Context\ContextBuilderInterface;
 use Symfony\Component\Serializer\Context\Normalizer\ObjectNormalizerContextBuilder;

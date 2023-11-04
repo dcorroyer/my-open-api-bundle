@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace My\RestBundle\Serialization;
+namespace My\OpenApiBundle\Serialization;
 
 final class ApiSerializationGroups
 {

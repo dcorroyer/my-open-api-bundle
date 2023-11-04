@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace My\RestBundle\Serialization\Model;
+namespace My\OpenApiBundle\Serialization\Model;
 
-use My\RestBundle\Serialization\ApiSerializationGroups;
+use My\OpenApiBundle\Serialization\ApiSerializationGroups;
 use OpenApi\Attributes as OA;
 use Stringable;
 use Symfony\Component\Serializer\Annotation\Groups;

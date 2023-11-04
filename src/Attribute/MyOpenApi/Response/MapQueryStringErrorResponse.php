@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace My\RestBundle\Attribute\MyOpenApi\Response;
+namespace My\OpenApiBundle\Attribute\MyOpenApi\Response;
 
 use OpenApi\Attributes as OA;
 use Symfony\Component\HttpFoundation\Response;
-use My\RestBundle\Attribute\MyOpenApi\MyOpenApiResponseList;
+use My\OpenApiBundle\Attribute\MyOpenApi\MyOpenApiResponseList;
 
 /**
  * Use this ErrorResponse when you use MapRequestPayload attribute.

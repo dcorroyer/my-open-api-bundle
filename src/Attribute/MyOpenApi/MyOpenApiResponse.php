@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace My\RestBundle\Attribute\MyOpenApi;
+namespace My\OpenApiBundle\Attribute\MyOpenApi;
 
 use Symfony\Component\HttpFoundation\Response;
 

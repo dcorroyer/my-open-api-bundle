@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace My\RestBundle\Attribute\MyOpenApi\Response;
+namespace My\OpenApiBundle\Attribute\MyOpenApi\Response;
 
-use My\RestBundle\Attribute\MyOpenApi\MyOpenApiResponse;
-use My\RestBundle\Serialization\Model\Error;
+use My\OpenApiBundle\Attribute\MyOpenApi\MyOpenApiResponse;
+use My\OpenApiBundle\Serialization\Model\Error;
 use Symfony\Component\HttpFoundation\Response;
 
 /**

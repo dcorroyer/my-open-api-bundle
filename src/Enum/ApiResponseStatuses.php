@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace My\RestBundle\Enum;
+namespace My\OpenApiBundle\Enum;
 
 enum ApiResponseStatuses: string
 {

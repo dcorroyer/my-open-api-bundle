@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace My\RestBundle\Contract;
+namespace My\OpenApiBundle\Contract;
 
 use Doctrine\Common\Collections\Criteria;
 

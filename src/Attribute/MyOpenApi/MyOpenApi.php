@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace My\RestBundle\Attribute\MyOpenApi;
+namespace My\OpenApiBundle\Attribute\MyOpenApi;
 
-use My\RestBundle\Attribute\MyOpenApi\Response\ErrorResponse;
-use My\RestBundle\Enum\ApiResponseStatuses;
-use My\RestBundle\Serialization\ApiSerializationGroups;
+use My\OpenApiBundle\Attribute\MyOpenApi\Response\ErrorResponse;
+use My\OpenApiBundle\Enum\ApiResponseStatuses;
+use My\OpenApiBundle\Serialization\ApiSerializationGroups;
 use InvalidArgumentException;
 use Nelmio\ApiDocBundle\Annotation\Model;
 use OpenApi\Annotations\Operation;

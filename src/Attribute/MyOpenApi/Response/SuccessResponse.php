@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace My\RestBundle\Attribute\MyOpenApi\Response;
+namespace My\OpenApiBundle\Attribute\MyOpenApi\Response;
 
 use Symfony\Component\HttpFoundation\Response;
-use My\RestBundle\Attribute\MyOpenApi\MyOpenApiResponse;
+use My\OpenApiBundle\Attribute\MyOpenApi\MyOpenApiResponse;
 
 class SuccessResponse extends MyOpenApiResponse
 {
