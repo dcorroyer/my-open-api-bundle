@@ -18,7 +18,11 @@
         "php": ">=8.2",
         "nelmio/api-doc-bundle": "^4.12",
         "symfony/http-foundation": "^6.3",
-        "symfony/serializer": "6.3.*"
+        "symfony/serializer": "6.3.*",
+        "symfony/framework-bundle": "6.3.x-dev",
+        "knplabs/knp-paginator-bundle": "^6.2",
+        "symfony/validator": "6.4.x-dev",
+        "symfony/orm-pack": "dev-main"
     },
     "config": {
         "allow-plugins": {
