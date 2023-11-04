@@ -4,7 +4,6 @@
     "type": "symfony-bundle",
     "license": "MIT",
     "minimum-stability": "dev",
-    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "My\\RestBundle\\": "src/"
@@ -17,22 +16,17 @@
     },
     "require": {
         "php": ">=8.2",
-        "doctrine/doctrine-bundle": "^2.10",
-        "doctrine/orm": "^2.15",
         "nelmio/api-doc-bundle": "^4.12",
         "symfony/http-foundation": "^6.3",
         "symfony/serializer": "6.3.*",
-        "symfony/framework-bundle": "~6.3.0",
+        "symfony/framework-bundle": "6.3.x-dev",
         "knplabs/knp-paginator-bundle": "^6.2",
-        "symfony/validator": "~6.3.0"
+        "symfony/validator": "6.4.x-dev",
+        "symfony/orm-pack": "dev-main"
     },
     "config": {
         "allow-plugins": {
             "php-http/discovery": true
         }
-    },
-    "require-dev": {
-        "zenstruck/foundry": "^1.34",
-        "phpunit/phpunit": "^10.0"
     }
 }
