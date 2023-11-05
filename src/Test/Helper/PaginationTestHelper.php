@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace My\RestBundle\Tests\Common\Helper;
+namespace My\RestBundle\Test\Helper;
 
 use Knp\Bundle\PaginatorBundle\Pagination\SlidingPagination;
 
