@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace My\RestBundle\Tests\Common\Trait;
+namespace My\RestBundle\Test\Common\Trait;
 
 use PHPUnit\Framework\Attributes\Before;
 use Symfony\Component\PropertyInfo\Extractor\PhpDocExtractor;
