@@ -7,12 +7,12 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "My\\OpenApiBundle\\": "src/"
+            "My\\RestBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "My\\OpenApiBundle\\Tests\\": "tests/"
+            "My\\RestBundle\\Tests\\": "tests/"
         }
     },
     "require": {

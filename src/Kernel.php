@@ -1,6 +1,6 @@
 <?php
 
-namespace My\OpenApiBundle;
+namespace My\RestBundle;
 
 use Symfony\Bundle\FrameworkBundle\Kernel\MicroKernelTrait;
 use Symfony\Component\HttpKernel\Kernel as BaseKernel;

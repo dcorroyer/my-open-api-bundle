@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace My\OpenApiBundle\Attribute\MyOpenApi;
+namespace My\RestBundle\Attribute\MyOpenApi;
 
 class CustomOpenApiType
 {
