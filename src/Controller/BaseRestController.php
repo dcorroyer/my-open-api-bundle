@@ -29,12 +29,12 @@ class BaseRestController extends AbstractController
         $apiResponse = new ApiResponse(data: $data, meta: $meta);
 
         $responseContext = $context
-            ->withGroups([...$groups]);
+            ->withGroups([...$groups, ApiSerializationGroups::API_SUCCESS]);
 
         return $this->json(
             data: $apiResponse,
             status: $status,
-            context: (array) ObjectContextMerger::mergeContext($context, $responseContext)
+            context: ObjectContextMerger::mergeContext($context, $responseContext)->toArray()
         );
     }
 
