@@ -16,7 +16,7 @@ class MyOpenApiResponse
      */
     public function __construct(
         private readonly string  $description,
-        private readonly string  $responseClassFqcn,
+        private readonly ?string  $responseClassFqcn = null,
         private readonly int     $responseCode = Response::HTTP_OK,
         private readonly array   $groups = [],
         private readonly bool    $asArray = false,
@@ -29,7 +29,7 @@ class MyOpenApiResponse
         return $this->description;
     }
 
-    public function getResponseClassFqcn(): string
+    public function getResponseClassFqcn(): ?string
     {
         return $this->responseClassFqcn;
     }
