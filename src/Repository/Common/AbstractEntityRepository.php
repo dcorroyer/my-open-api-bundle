@@ -34,10 +34,10 @@ abstract class AbstractEntityRepository extends BaseRepository implements Servic
 
     public function save(object $entity, bool $flush = false): string|int|null
     {
-        $this->_em->persist($entity);
+        $this->getEntityManager()->persist($entity);
 
         if ($flush) {
-            $this->_em->flush();
+            $this->getEntityManager()->flush();
 
             return $entity->getId();  // @phpstan-ignore-line
         }
@@ -48,28 +48,23 @@ abstract class AbstractEntityRepository extends BaseRepository implements Servic
     public function delete(object $entity, bool $flush = false): string|int
     {
         $id = $entity->getId();  // @phpstan-ignore-line
-        $this->_em->remove($entity);
+        $this->getEntityManager()->remove($entity);
 
         if ($flush) {
-            $this->_em->flush();
+            $this->getEntityManager()->flush();
         }
 
         return $id;
     }
 
-    public function count(array $criteria = []): int
-    {
-        return $this->count($criteria);
-    }
-
     public function persist(object $entity): void
     {
-        $this->_em->persist($entity);
+        $this->getEntityManager()->persist($entity);
     }
 
     public function flush(): void
     {
-        $this->_em->flush();
+        $this->getEntityManager()->flush();
     }
 
     public function paginate(
